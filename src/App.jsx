@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { fetchNews, searchNews, fetchUserInterests } from "./api/api.js";
-import Header from "./components/Header/Header.jsx";
+import Header from "./components/header/Header.jsx";
 import NewsCard from "./components/card/NewsCard.jsx";
 import Loader from "./components/loader/Loader.jsx";
 import "./App.css";
