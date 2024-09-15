@@ -1,0 +1,97 @@
+.header {
+  width: 100%;
+  height: 60px; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+  box-sizing: border-box;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  z-index: 1000; 
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.search-bar button {
+  padding: 5px 10px;
+  margin-left: 10px;
+}
+
+.auth-buttons button {
+  margin-left: 10px;
+}
+
+.interests-toggle {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.interests-dropdown {
+  position: absolute;
+  top: 60px; 
+  right: 20px; 
+  width: 300px; 
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  box-sizing: border-box;
+  z-index: 1000; 
+}
+
+.dropdown-title {
+  margin: 0;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.interest-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.interest-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.interest-item input {
+  margin-right: 10px;
+}
+
+.interest-item label {
+  font-size: 16px;
+}
+
+.dropdown-submit {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+}
